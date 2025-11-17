@@ -1,0 +1,44 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcworkspace/
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# SwiftPM
+.swiftpm/
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# VSCode
+.vscode/
+
+# JetBrains AppCode
+.idea/
+
+# Archive & Exported IPA
+*.ipa
+
+# Ignore compressed files
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
